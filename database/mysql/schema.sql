@@ -12,4 +12,4 @@ CREATE TABLE pokemon (
   trait VARCHAR(255) NOT NULL
 );
 
--- Execute this file using mysql -u root -p < database/schema.sql
+-- Execute this file using mysql -u root -p < database/mysql/schema.sql

@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/pokemon');
 
+/* Insert feedback loop here */
+
 let pokemonSchema = mongoose.Schema({
   id: Number,
   name: String,
@@ -13,7 +15,7 @@ let Pokemon = mongoose.model('Pokemon', pokemonSchema);
 let addToPokedex = (pokemon, callback) => {
   // TODO: This function should take one or more pokemon 
   // and save this into our database
-
+  
   Pokemon.create(pokemon)
     .then((results) => {
       callback(null, results);
@@ -33,8 +35,8 @@ let getAllPokemon = (callback) => {
     } else {
       callback(null, results);
     }
-  });
-  
+  })
+
 };
 
 module.exports = {
