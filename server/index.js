@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 // const db = require('../database/mysqlSetup'); /* MYSQL CONNECTION */
-const { addToPokedex, getAllPokemon } = require('../database/mongoSetup'); /* MONGODB CONNECTION */
+// const { addToPokedex, getAllPokemon } = require('../database/mongoSetup'); /* MONGODB CONNECTION */
 
 const exampleData = require('../exampleData.json');
 
