@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "type": "Grass",
+    "trait": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
+  },
+  {
+    "id": 2,
+    "name": "Charmander",
+    "type": "Fire",
+    "trait": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+  },
+  {
+    "id": 3,
+    "name": "Squirtle",
+    "type": "Water",
+    "trait": "When it retracts its long neck into its shell, it squirts out water with vigorous force."
+  }
+]
