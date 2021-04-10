@@ -1,0 +1,28 @@
+{
+  "name": "queries_demo",
+  "version": "1.0.0",
+  "description": "A demo of simple queries in MySQL and MongoDB for Hack Reactor students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisong1/queries_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisong1/queries_demo/issues"
+  },
+  "homepage": "https://github.com/aisong1/queries_demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
