@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/pokemon');
 
-
 let pokemonSchema = mongoose.Schema({
   id: Number,
   name: String,
